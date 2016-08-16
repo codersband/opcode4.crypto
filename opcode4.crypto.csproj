@@ -55,6 +55,14 @@
       <Name>opcode4.utilities</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
+    <None Include="package.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="gulpfile.js" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
